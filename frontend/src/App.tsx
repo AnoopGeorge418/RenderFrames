@@ -1,10 +1,15 @@
+import { BrowserRouter, Routes, Route } from "react-router"
+import Landing from "./pages/Landing.tsx"
 
 function App() {
 
   return (
-    <div>
-      <h1></h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={ <Landing /> }/>
+      </Routes>
+    </BrowserRouter>
+    
   )
 }
 
