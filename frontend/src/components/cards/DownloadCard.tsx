@@ -33,8 +33,8 @@ const DownloadCard = () => {
       <div className="font-[benne] h-[43px] flex items-center gap-2 px-[11px] cursor-pointer hover:bg-gray-100 hover:rounded-bl-[10px] hover:rounded-br-[10px]">
         <img src={webIcon} alt="Mobile App Download Button" className="w-5 h-5"/>
         <div className="flex flex-col leading-tight">
-          <p className="font-[14px]">Web App</p>
-          <p className="font-[12px] text-[#9B9B9B]">Instant Access</p>
+          <p className="text-[14px]">Web App</p>
+          <p className="text-[12px] text-[#9B9B9B]">Instant Access</p>
         </div>
       </div>
 
