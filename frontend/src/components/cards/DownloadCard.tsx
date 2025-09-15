@@ -3,9 +3,9 @@ import mobileIcon from "../../assets/Icons/Mobile.png"
 import desktopIcon from "../../assets/Icons/Desktop.png"
 import webIcon from "../../assets/Icons/Web.png"
 
-const DownloadCard = () => {
+const DownloadCard: React.FC = () => {
   return (
-    <div className="border border-[#c7c7c7] h-[184px] w-[188px] rounded-[10px] font-[benne]">
+    <div className="border border-[#c7c7c7] h-[184px] w-[188px] rounded-[10px] font-[benne] bg-white">
       <div className="bg-white border border-[#c7c7c7] h-[53px] rounded-tl-[10px] rounded-tr-[10px] flex items-center justify-between px-3">
         <div>
           <p className="font-[belleza] text-[14px]">Get RenderFrames</p>
