@@ -1,15 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router"
 import Landing from "./pages/Landing.tsx"
 
-function App() {
-
+const App: React.FC = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={ <Landing /> }/>
       </Routes>
     </BrowserRouter>
-    
   )
 }
 
